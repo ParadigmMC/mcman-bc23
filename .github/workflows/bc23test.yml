@@ -16,5 +16,5 @@ jobs:
           path: 'mcman'
       - run: rustup toolchain install stable
       - uses: Swatinem/rust-cache@v2
-      - run: cargo run --manifest-path $GITHUB_WORKSPACE/mcman/Cargo.toml --quiet run --test
-        working-directory: $GITHUB_WORKSPACE/bc23
+      - run: cargo run --manifest-path ${{ github.workspace }}/mcman/Cargo.toml --quiet run --test
+        working-directory: ${{ github.workspace }}/bc23
