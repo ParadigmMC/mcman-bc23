@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          repository: 'ParadigmMC/mcman-bc23'
           path: bc23
       - uses: actions/checkout@v3
         with:
@@ -20,5 +21,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - run: cargo run --manifest-path ${{ github.workspace }}/mcman/Cargo.toml --quiet run --test
+      - run: |
+          ls
+          cargo run --manifest-path ${{ github.workspace }}/mcman/Cargo.toml run --test
         working-directory: ${{ github.workspace }}/bc23
