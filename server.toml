@@ -1,0 +1,1348 @@
+name = "BlanketCon 23"
+mc_version = "1.20.1"
+
+[jar]
+type = "quilt"
+loader = "0.20.0-beta.4"
+installer = "latest"
+
+[variables]
+PORT = "25565"
+
+[launcher]
+nogui = true
+eula_args = true
+
+[worlds.world.download]
+type = "ghrel"
+repo = "ModFest/bc23-pack"
+tag = "world"
+asset = "first"
+
+[[mods]]
+type = "maven"
+url = "https://maven.ithundxr.dev/releases"
+group = "com.railwayteam.railways"
+artifact = "Steam_Rails-fabric-1.20.1/1.5.0+fabric-mc1.20.1-build.547"
+version = "latest"
+filename = "Steam_Rails-fabric-1.20.1-1.5.0+fabric-mc1.20.1-build.547.jar"
+
+[[mods]]
+type = "modrinth"
+id = "JnGnx3M8"
+version = "2zKZZMqD"
+
+[[mods]]
+type = "modrinth"
+id = "IF0Y4xFw"
+version = "hgcUCnca"
+
+[[mods]]
+type = "modrinth"
+id = "VYOybYzW"
+version = "sAJ8egdA"
+
+[[mods]]
+type = "modrinth"
+id = "jhl28YkY"
+version = "CDuKyCCF"
+
+[[mods]]
+type = "modrinth"
+id = "r0v8vy1s"
+version = "zrRsTCOk"
+
+[[mods]]
+type = "url"
+url = "https://amymialee.b-cdn.net/amarite-1.5-1.0.8.jar"
+filename = "amarite-1.5-1.0.8.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "MerchantPug/apoli"
+tag = "2.9.0+bc.23.3"
+asset = "Apoli-1.20.1-2.9.0+bc.23.3.jar"
+
+[[mods]]
+type = "modrinth"
+id = "1qeWG44Y"
+version = "WqVtxiDk"
+
+[[mods]]
+type = "modrinth"
+id = "y6VZckSn"
+version = "38bWfYC2"
+
+[[mods]]
+type = "modrinth"
+id = "YyhsabMU"
+version = "xghRQYP1"
+
+[[mods]]
+type = "modrinth"
+id = "lhGA9TYQ"
+version = "Sbew3kXe"
+
+[[mods]]
+type = "modrinth"
+id = "I8tduDIx"
+version = "DuUnPF3G"
+
+[[mods]]
+type = "modrinth"
+id = "Ef9ZREBZ"
+version = "i2MmbgPj"
+
+[[mods]]
+type = "modrinth"
+id = "rkN8aqci"
+version = "xXhZI4u3"
+
+[[mods]]
+type = "modrinth"
+id = "Rpk5pyoM"
+version = "X0vnzbwv"
+
+[[mods]]
+type = "url"
+url = "https://blanketcon.b-cdn.net/pub/atlaslisbon-1.2.0+1.20.1.jar"
+filename = "atlaslisbon-1.2.0+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "GOqAnOfW"
+version = "4W0CuOHJ"
+
+[[mods]]
+type = "url"
+url = "https://github.com/FoundationGames/Automobility/releases/download/v0.4.2.b%2B1.20.1/automobility-0.4.2.b+1.20.1-fabric.jar"
+
+[[mods]]
+type = "modrinth"
+id = "7zlUOZvb"
+version = "APALB3wK"
+
+[[mods]]
+type = "modrinth"
+id = "9Y8sMRVG"
+version = "RSjDPkRp"
+
+[[mods]]
+type = "modrinth"
+id = "Wpqg0ciI"
+version = "90JY9flG"
+
+[[mods]]
+type = "ghrel"
+repo = "ModFest/bc23-enchantment-bridge"
+tag = "1.2.1+1.20.1"
+asset = "BC23EnchantmentBridge-1.2.1+1.20.1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "bed-wars-1.0.0.jar"
+
+[[mods]]
+type = "url"
+url = "https://amymialee.b-cdn.net/befoul-1.0.7.jar"
+filename = "befoul-1.0.7.jar"
+
+[[mods]]
+type = "modrinth"
+id = "ZucWZEBV"
+version = "6nQWk1fq"
+
+[[mods]]
+type = "modrinth"
+id = "fJeQl13M"
+version = "ci5yIg0C"
+
+[[mods]]
+type = "modrinth"
+id = "Yl6uPZkr"
+version = "uLiIwYwS"
+
+[[mods]]
+type = "modrinth"
+id = "nO6JnvSE"
+version = "glYT17qh"
+
+[[mods]]
+type = "modrinth"
+id = "BDg6nMn3"
+version = "sK2CC6Z1"
+
+[[mods]]
+type = "modrinth"
+id = "nr7cSJlY"
+version = "dd1DkGEe"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/BuildRush"
+tag = "v3.0.3"
+asset = "build_rush-3.0.2.jar"
+
+[[mods]]
+type = "modrinth"
+id = "Z29y9YGt"
+version = "9MnXKOl9"
+
+[[mods]]
+type = "modrinth"
+id = "pUSRRdVF"
+version = "pZzGZgrX"
+
+[[mods]]
+type = "modrinth"
+id = "K01OU20C"
+version = "qW85eawp"
+
+[[mods]]
+type = "modrinth"
+id = "VX3TgwQh"
+version = "gPJoJ3mr"
+
+[[mods]]
+type = "modrinth"
+id = "jE0SjGuf"
+version = "6zklbAcD"
+
+[[mods]]
+type = "modrinth"
+id = "TQTTVgYE"
+version = "K0Wj117C"
+
+[[mods]]
+type = "modrinth"
+id = "gu7yAYhd"
+version = "MPg1gYz8"
+
+[[mods]]
+type = "modrinth"
+id = "fXt291FO"
+version = "57pJUQQM"
+
+[[mods]]
+type = "modrinth"
+id = "Vma7ZDvU"
+version = "t9afjbhS"
+
+[[mods]]
+type = "modrinth"
+id = "9s6osm5g"
+version = "s7VTKfLA"
+
+[[mods]]
+type = "modrinth"
+id = "Wnxd13zP"
+version = "l3neajc5"
+
+[[mods]]
+type = "modrinth"
+id = "nDHcEOt3"
+version = "AbENsUuc"
+
+[[mods]]
+type = "url"
+url = "https://cdn.discordapp.com/attachments/1127341468219080814/1144210746717245541/Controlify-1.6.01.20-bc23fix.jar"
+filename = "Controlify-1.6.01.20-bc23fix.jar"
+
+[[mods]]
+type = "modrinth"
+id = "FJI3H6YI"
+version = "GYP5cKT7"
+
+[[mods]]
+type = "modrinth"
+id = "hi9fDDRj"
+version = "VI5iUeV0"
+
+[[mods]]
+type = "modrinth"
+id = "Xbc0uyRg"
+version = "qlA1WuOK"
+
+[[mods]]
+type = "modrinth"
+id = "4lO2KZlF"
+version = "CWLe96pW"
+
+[[mods]]
+type = "modrinth"
+id = "LwFVdT1s"
+version = "wuqSq1tI"
+
+[[mods]]
+type = "modrinth"
+id = "meZK2DCX"
+version = "J6b05anw"
+
+[[mods]]
+type = "modrinth"
+id = "7wa9983j"
+version = "SB9IZq56"
+
+[[mods]]
+type = "modrinth"
+id = "b2SVO5sB"
+version = "ZitASxs0"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "destroythemonument-1.0.4.jar"
+
+[[mods]]
+type = "modrinth"
+id = "i090SePT"
+version = "UGKpfpZ6"
+
+[[mods]]
+type = "modrinth"
+id = "bEQrnLr7"
+version = "DDbewQGd"
+
+[[mods]]
+type = "modrinth"
+id = "4nXV6zEk"
+version = "5lxv0sRT"
+
+[[mods]]
+type = "modrinth"
+id = "aQ7h7gal"
+version = "kJVUTtpZ"
+
+[[mods]]
+type = "modrinth"
+id = "MAmi6HBa"
+version = "1iDZpG79"
+
+[[mods]]
+type = "modrinth"
+id = "l2IpK3Ji"
+version = "dQNeFyIc"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "duels-0.0.3.jar"
+
+[[mods]]
+type = "modrinth"
+id = "LQ3K71Q1"
+version = "Usg995P0"
+
+[[mods]]
+type = "modrinth"
+id = "mfzaZK3Z"
+version = "Lr5BTYBp"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/ecotones-0.9.4-showcase1.jar"
+filename = "ecotones-0.9.4-showcase1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "HyperPigeon/ElectricEel"
+tag = "v0.5.0"
+asset = "ElectricEel-0.5.0+1.20.jar"
+
+[[mods]]
+type = "modrinth"
+id = "1LrBk5C6"
+version = "Sggsrxw0"
+
+[[mods]]
+type = "url"
+url = "https://amymialee.b-cdn.net/elysium-1.0.24+1.20.1.jar"
+filename = "elysium-1.0.24+1.20.1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "emilyploszaj/emi"
+tag = "1.0.19+1.20.1"
+asset = "emi-1.0.19+1.20.1+fabric.jar"
+
+[[mods]]
+type = "modrinth"
+id = "6hN1V6wJ"
+version = "6ldvVCsq"
+
+[[mods]]
+type = "ghrel"
+repo = "AstralOrdana/Enchantery"
+tag = "v.0.0.8"
+asset = "enchantery-1.20.1-0.0.8-fabric.jar"
+
+[[mods]]
+type = "modrinth"
+id = "NtlsPMR3"
+version = "pG5rD3S9"
+
+[[mods]]
+type = "modrinth"
+id = "JpAGYwCM"
+version = "dP9fafZg"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/excorrelation-1.1.40.jar"
+filename = "excorrelation-1.1.40.jar"
+
+[[mods]]
+type = "modrinth"
+id = "AhtxbnpG"
+version = "bMTgXYHf"
+
+[[mods]]
+type = "modrinth"
+id = "j9JARqmz"
+version = "vkrmmrFW"
+
+[[mods]]
+type = "modrinth"
+id = "B3Eg0WhA"
+version = "9nSI4Am1"
+
+[[mods]]
+type = "modrinth"
+id = "g8w1NapE"
+version = "MNgY2xFj"
+
+[[mods]]
+type = "modrinth"
+id = "ZHKrK8Rp"
+version = "9NyvBu2u"
+
+[[mods]]
+type = "modrinth"
+id = "WYJ9YHh9"
+version = "BOp8kgUg"
+
+[[mods]]
+type = "modrinth"
+id = "uXXizFIs"
+version = "l9p9zXTR"
+
+[[mods]]
+type = "modrinth"
+id = "s9gIPDom"
+version = "8892Wqoi"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/fireblanket-0.3.7.jar"
+filename = "fireblanket-0.3.7.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "Akarys42/Flamingo"
+tag = "release-1.20"
+asset = "Flamingo-1.20.jar"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/flywheel-fabric-1.20.1-0.6.9+fenceless.jar"
+filename = "flywheel-fabric-1.20.1-0.6.9+fenceless.jar"
+
+[[mods]]
+type = "modrinth"
+id = "ohNO6lps"
+version = "CtENDTlF"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "fortress-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "j93Yu8fr"
+version = "LMBXXeng"
+
+[[mods]]
+type = "ghrel"
+repo = "MerchantPug/geckolib"
+tag = "4.2.1+bc23.1"
+asset = "geckolib-fabric-1.20.1-4.2.1+bc23.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "P43RxVjo"
+version = "sBcIoxZg"
+
+[[mods]]
+type = "modrinth"
+id = "14Z3YVAP"
+version = "D0xyqXqN"
+
+[[mods]]
+type = "modrinth"
+id = "Hhaag1wJ"
+version = "Gznx5S3M"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/glowcase-1.2.0+unafix+1.20.1.jar"
+filename = "glowcase-1.2.0+unafix+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "j5niDupl"
+version = "nQOmPFeh"
+
+[[mods]]
+type = "modrinth"
+id = "Ex1ynKrU"
+version = "9wxlLq8n"
+
+[[mods]]
+type = "modrinth"
+id = "Ixqupd0G"
+version = "2UjvOcq7"
+
+[[mods]]
+type = "url"
+url = "https://amymialee.b-cdn.net/halfdoors-1.0-SNAPSHOT.jar"
+filename = "halfdoors-1.0-SNAPSHOT.jar"
+
+[[mods]]
+type = "modrinth"
+id = "L85Kwl96"
+version = "QSAMuz9m"
+
+[[mods]]
+type = "modrinth"
+id = "7vleuAJ9"
+version = "FYvkHWWe"
+
+[[mods]]
+type = "ghrel"
+repo = "Cypher121/HexMod"
+tag = "bc23-3"
+asset = "hexcasting-fabric-1.20.1-0.11.1-7+${tag}.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "Talia-12/Hexal"
+tag = "0.3.0-2"
+asset = "hexal-fabric-1.20.1-${tag}.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "Cypher121/hexbound"
+tag = "bc23-2"
+asset = "hexbound-0.2.0+1.20.1+bc2.jar"
+
+[[mods]]
+type = "modrinth"
+id = "YD2jDTGO"
+version = "rvLCs4Gi"
+
+[[mods]]
+type = "modrinth"
+id = "Zj1ND0rS"
+version = "qeaxZ92P"
+
+[[mods]]
+type = "modrinth"
+id = "13RpG7dA"
+version = "T71Apams"
+
+[[mods]]
+type = "modrinth"
+id = "5ZwdcRci"
+version = "1BSUFszc"
+
+[[mods]]
+type = "modrinth"
+id = "Orvt0mRa"
+version = "yTh7W27h"
+
+[[mods]]
+type = "modrinth"
+id = "IYY9Siz8"
+version = "vVYtBiuW"
+
+[[mods]]
+type = "modrinth"
+id = "SRCaBfKA"
+version = "yeyrHLYX"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "koth-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "fQEb0iXm"
+version = "jiDwS0W1"
+
+[[mods]]
+type = "ghrel"
+repo = "sisby-folk/LambdaMap"
+tag = "v1.0.0-bc.1"
+asset = "lambdamap-1.0.0-alpha.1+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "LVN9ygNV"
+version = "pOxgWfwI"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/lib39-1.5.0-experimental6.1+1.20.1-all.jar"
+filename = "lib39-1.5.0-experimental6.1+1.20.1-all.jar"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/libnetworkstack-base-0.10.0+errorless.jar"
+filename = "libnetworkstack-base-0.10.0+errorless.jar"
+
+[[mods]]
+type = "modrinth"
+id = "yjvKidNM"
+version = "VFK4bzol"
+
+[[mods]]
+type = "ghrel"
+repo = "AutumnalDev/LimbonicLegacy"
+tag = "1.1.3"
+asset = "limbonic-legacy-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "gvQqBUqZ"
+version = "ZSNsJrPI"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "loopdeloop-1.2.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "hBVVhStr"
+version = "xa1QAtHc"
+
+[[mods]]
+type = "modrinth"
+id = "Vebnzrzj"
+version = "7VG8Evoq"
+
+[[mods]]
+type = "modrinth"
+id = "1cjUVbYD"
+version = "WucztYmg"
+
+[[mods]]
+type = "modrinth"
+id = "QOkEkSap"
+version = "TT7eUrpf"
+
+[[mods]]
+type = "modrinth"
+id = "qdvOQbm0"
+version = "Fw9J3KbX"
+
+[[mods]]
+type = "modrinth"
+id = "CF1AC1Xu"
+version = "8JrSF6FV"
+
+[[mods]]
+type = "modrinth"
+id = "codAaoxh"
+version = "3YykTkmJ"
+
+[[mods]]
+type = "modrinth"
+id = "OCxj9VC8"
+version = "hlS5XQgk"
+
+[[mods]]
+type = "modrinth"
+id = "Nw0MStSd"
+version = "kWHcf5XI"
+
+[[mods]]
+type = "modrinth"
+id = "sGmHWmeL"
+version = "LGYOH4RN"
+
+[[mods]]
+type = "modrinth"
+id = "nmDcB62a"
+version = "PJlRMp4v"
+
+[[mods]]
+type = "modrinth"
+id = "mOgUt4GM"
+version = "eTCL1uh8"
+
+[[mods]]
+type = "modrinth"
+id = "twkfQtEc"
+version = "hZxT2b1p"
+
+[[mods]]
+type = "ghrel"
+repo = "Talia-12/MoreIotas"
+tag = "0.1.0-4"
+asset = "moreiotas-fabric-1.20.1-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "N2F89jG0"
+version = "BtGvYG8k"
+
+[[mods]]
+type = "ghrel"
+repo = "LemmaEOF/Mycoturgy"
+tag = "0.1.4-blanketcon+1.20.1"
+asset = "mycoturgy-0.1.4-blanketcon+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "bAWzYNRd"
+version = "TIjrw9LW"
+
+[[mods]]
+type = "modrinth"
+id = "qQyHxfxd"
+version = "HeZZR2kF"
+
+[[mods]]
+type = "ghrel"
+repo = "MattiDragon/nodeflow"
+tag = "v0.2.2-mc.1.20"
+asset = "nodeflow-0.2.2+mc.1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "eNF4Bfla"
+version = "aJrIHaRL"
+
+[[mods]]
+type = "modrinth"
+id = "HDocER98"
+version = "5yNE8dkj"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.4"
+asset = "nucleoid-extras-blanketcon-1.0.3.jar"
+
+[[mods]]
+type = "modrinth"
+id = "zYHI71AZ"
+version = "3k5efhAh"
+
+[[mods]]
+type = "modrinth"
+id = "a4dha7eM"
+version = "aMEiNETI"
+
+[[mods]]
+type = "modrinth"
+id = "gbOL9is1"
+version = "iF2I2vmf"
+
+[[mods]]
+type = "modrinth"
+id = "3BeIrqZR"
+version = "OdNHB7Bh"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/owo-lib-0.11.1+1.20-unabcfix.jar"
+filename = "owo-lib-0.11.1+1.20-unabcfix.jar"
+
+[[mods]]
+type = "modrinth"
+id = "10DZYVis"
+version = "VPPcBZpE"
+
+[[mods]]
+type = "modrinth"
+id = "nU0bVIaL"
+version = "tzz6fEoj"
+
+[[mods]]
+type = "jenkins"
+url = "https://ci.blamejared.com"
+job = "petrakat/PAUCAL/main"
+build = "latest"
+artifact = "first"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/peculiarpieces-1.2.17+nowardingsync.jar"
+filename = "peculiarpieces-1.2.17+nowardingsync.jar"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/Pehkui-3.7.8+1.14.4-1.20.1+bc2.jar"
+filename = "Pehkui-3.7.8+1.14.4-1.20.1+bc2.jar"
+
+[[mods]]
+type = "modrinth"
+id = "vV2a9qrZ"
+version = "V918Mp2H"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/phonochat-0.2.3+1.20-unabroadcastfix.jar"
+filename = "phonochat-0.2.3+1.20-unabroadcastfix.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "FoundationGames/Phonos"
+tag = "v1.0.0-beta.11+1.20.1"
+asset = "phonos-1.0.0-beta.11+1.20.1.jar"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/picturesign-2.0.0-beta.1+unascribedtheora5.jar"
+filename = "picturesign-2.0.0-beta.1+unascribedtheora5.jar"
+
+[[mods]]
+type = "modrinth"
+id = "gHkzYDn7"
+version = "Pw1MWIuM"
+
+[[mods]]
+type = "modrinth"
+id = "HH23ZA1P"
+version = "B7fQpNDJ"
+
+[[mods]]
+type = "modrinth"
+id = "6T8A0G0v"
+version = "N4wCo7gC"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.3"
+asset = "plasmid-0.5.101-SNAPSHOT+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "LDfFdCXe"
+version = "wchDyDgF"
+
+[[mods]]
+type = "modrinth"
+id = "bpUgmHBo"
+version = "23ubHVHe"
+
+[[mods]]
+type = "modrinth"
+id = "9dPDuh0K"
+version = "oO5lEehR"
+
+[[mods]]
+type = "ghrel"
+repo = "HestiMae/pollinators-paradise"
+tag = "v1.3.3-bc.2"
+asset = "pollinators-paradise-1.3.3-bc.2+1.20.jar"
+
+[[mods]]
+type = "modrinth"
+id = "m5NB7FJE"
+version = "hx2bY7Tl"
+
+[[mods]]
+type = "ghrel"
+repo = "Patbox/PolyFactory"
+tag = "0.0.0-blanket.3"
+asset = "polyfactory-0.0.0-alpha.0.jar"
+
+[[mods]]
+type = "modrinth"
+id = "xGdtZczs"
+version = "4yknppiu"
+
+[[mods]]
+type = "ghrel"
+repo = "Fusion-Flux/Portal-Cubed"
+tag = "Ex-Bc-V13"
+asset = "portal_cubed-2.3.0-rev.c903c14.jar"
+
+[[mods]]
+type = "modrinth"
+id = "uGKlslKZ"
+version = "1XaXief2"
+
+[[mods]]
+type = "modrinth"
+id = "8cCfmdw2"
+version = "mMfjw9Yo"
+
+[[mods]]
+type = "modrinth"
+id = "GuE5FpvB"
+version = "F17sFUaS"
+
+[[mods]]
+type = "modrinth"
+id = "q6xLbfzS"
+version = "ACzFJj2C"
+
+[[mods]]
+type = "modrinth"
+id = "9rBI0wQz"
+version = "kWJLedkg"
+
+[[mods]]
+type = "modrinth"
+id = "n7CI2ifG"
+version = "z7uADV0O"
+
+[[mods]]
+type = "modrinth"
+id = "8bvlUrBx"
+version = "a9DhVCQy"
+
+[[mods]]
+type = "modrinth"
+id = "wvwtj5Hx"
+version = "BoRiuNUG"
+
+[[mods]]
+type = "modrinth"
+id = "lwVhp9o5"
+version = "9WIAwhe7"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/qfapi-6.1.1+1.20.1+hell2.jar"
+filename = "qfapi-6.1.1+1.20.1+hell2.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "quakecraft-1.7.5+1.20.jar"
+
+[[mods]]
+type = "modrinth"
+id = "Bk6pUD7R"
+version = "b40FwyzP"
+
+[[mods]]
+type = "ghrel"
+repo = "JamCoreModding/registries-can-be-warm"
+tag = "1.0.0"
+asset = "registries-can-be-warm-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "zG0Bb7gw"
+version = "QfZYXGW1"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "rocketspleef-0.1.1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "FoundationGames/Sandwichable"
+tag = "v1.3.1.a+1.20.1"
+asset = "sandwichable-1.3.1.a+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "vhY4Cys8"
+version = "9kVf8i4b"
+
+[[mods]]
+type = "url"
+url = "https://blanketcon.b-cdn.net/pub/scatteredshards-1.3.0+1.20.1.jar"
+filename = "scatteredshards-1.3.0+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "JyJgaOrk"
+version = "jjZabO7D"
+
+[[mods]]
+type = "modrinth"
+id = "SMaORwAr"
+version = "KtDDJDdb"
+
+[[mods]]
+type = "modrinth"
+id = "4WWQxlQP"
+version = "exA4UxFq"
+
+[[mods]]
+type = "ghrel"
+repo = "TheEpicBlock/ShadowsGate"
+tag = "0.2.1"
+asset = "shadowsgate-${tag}+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "9eGKb6K1"
+version = "miWStu4G"
+
+[[mods]]
+type = "modrinth"
+id = "2qcCxsBR"
+version = "F0GDWbTj"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/skywars"
+tag = "build-80"
+asset = "skywars-1.0.0-build.80.jar"
+
+[[mods]]
+type = "modrinth"
+id = "PuyPazRT"
+version = "4XxIY1BG"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "snake-${tag}.jar"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/sodium-fabric-mc1.20-rc1-0.4.10+bc2.jar"
+filename = "sodium-fabric-mc1.20-rc1-0.4.10+bc2.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "devOS-Sanity-Edition/SofterPastels"
+tag = "v0.3.0-pre.9"
+asset = "SofterPastels-0.3.0-pre.9-rev.eeafaa5.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "sisby-folk/Soul-Ice"
+tag = "v2.0.0-alpha.4-biomeless+1.20.1"
+asset = "soulice-2.0.0-alpha.4-biomeless+1.20.1-fabric.jar"
+
+[[mods]]
+type = "modrinth"
+id = "l6YH9Als"
+version = "BeIg1bik"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/spindlemark-1.1.0.jar"
+filename = "spindlemark-1.1.0.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "spleef-${tag}.jar"
+
+[[mods]]
+type = "modrinth"
+id = "H8CaAYZC"
+version = "XGIsoVGT"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/stimuli"
+tag = "v0.4.8+1.20.1"
+asset = "stimuli-0.4.8+1.20.1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "doqSKB0e"
+version = "axLlTgG5"
+
+[[mods]]
+type = "modrinth"
+id = "DOk6Gcdi"
+version = "9k8RQJkW"
+
+[[mods]]
+type = "modrinth"
+id = "3iuae0OP"
+version = "GcXsMF3z"
+
+[[mods]]
+type = "modrinth"
+id = "DQIfKUHf"
+version = "4FqvobxB"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.0"
+asset = "substrate-0.2.1+1.19.4.jar"
+
+[[mods]]
+type = "modrinth"
+id = "L7Du7ajc"
+version = "I38hyWv7"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "survival-games-0.1.4.jar"
+
+[[mods]]
+type = "modrinth"
+id = "TVftNsgD"
+version = "tGpe6bG4"
+
+[[mods]]
+type = "modrinth"
+id = "6kt9OiyV"
+version = "miuck0wo"
+
+[[mods]]
+type = "modrinth"
+id = "ss0QuCRx"
+version = "NgpcBdhS"
+
+[[mods]]
+type = "modrinth"
+id = "qETWTIDe"
+version = "6fHTilqA"
+
+[[mods]]
+type = "modrinth"
+id = "EPt60DPT"
+version = "fE0alMPh"
+
+[[mods]]
+type = "modrinth"
+id = "vE972Kux"
+version = "TUtCCNz3"
+
+[[mods]]
+type = "modrinth"
+id = "fhtWl3kP"
+version = "eDlnpfHd"
+
+[[mods]]
+type = "modrinth"
+id = "cL15qXuP"
+version = "MfkaTSSm"
+
+[[mods]]
+type = "modrinth"
+id = "GgTW6G1d"
+version = "39JO1AAy"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/terraform-wood-api-v1-7.0.1+jashacks1.jar"
+filename = "terraform-wood-api-v1-7.0.1+jashacks1.jar"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/TerrariaMod.-.Quilt.1.20.1-r5+unabcfix3.jar"
+filename = "TerrariaMod.-.Quilt.1.20.1-r5+unabcfix3.jar"
+
+[[mods]]
+type = "modrinth"
+id = "FDYDUHRw"
+version = "VxYs4LNI"
+
+[[mods]]
+type = "modrinth"
+id = "u8LBQOAl"
+version = "8FYQvsN4"
+
+[[mods]]
+type = "ghrel"
+repo = "NucleoidMC/blanketcon"
+tag = "1.0.1"
+asset = "the_towers-2.1.2.jar"
+
+[[mods]]
+type = "modrinth"
+id = "vSEH1ERy"
+version = "ADpW1yEf"
+
+[[mods]]
+type = "modrinth"
+id = "1itdse3V"
+version = "Kka2BlEL"
+
+[[mods]]
+type = "modrinth"
+id = "DJ2tL4CD"
+version = "eRZlHZcJ"
+
+[[mods]]
+type = "modrinth"
+id = "7cFX55fD"
+version = "iDUwwz5Q"
+
+[[mods]]
+type = "modrinth"
+id = "RhVpNN5O"
+version = "l09g3hXa"
+
+[[mods]]
+type = "modrinth"
+id = "xDjN28OB"
+version = "LxpeQinE"
+
+[[mods]]
+type = "url"
+url = "https://amymialee.b-cdn.net/trailier-1.0.0.jar"
+filename = "trailier-1.0.0.jar"
+
+[[mods]]
+type = "modrinth"
+id = "g744qmft"
+version = "jxvuqcF9"
+
+[[mods]]
+type = "modrinth"
+id = "5aaWibi9"
+version = "e563ycts"
+
+[[mods]]
+type = "modrinth"
+id = "W1Paq97E"
+version = "Gc0PR6Jl"
+
+[[mods]]
+type = "modrinth"
+id = "UogK5QqE"
+version = "Y2APrCFe"
+
+[[mods]]
+type = "modrinth"
+id = "yn9u3ypm"
+version = "RqVbvts1"
+
+[[mods]]
+type = "modrinth"
+id = "cnIatHrN"
+version = "OiADoEXn"
+
+[[mods]]
+type = "modrinth"
+id = "Sf7QBsRP"
+version = "hA9bAblq"
+
+[[mods]]
+type = "modrinth"
+id = "9ewe2JHJ"
+version = "SDRsPJnr"
+
+[[mods]]
+type = "modrinth"
+id = "fdZkP5Bb"
+version = "naGPAAhs"
+
+[[mods]]
+type = "modrinth"
+id = "ajdfGxGU"
+version = "unjQAak5"
+
+[[mods]]
+type = "modrinth"
+id = "wnEe9KBa"
+version = "CFUsBP6G"
+
+[[mods]]
+type = "modrinth"
+id = "p7ksDUGo"
+version = "57bbKX1c"
+
+[[mods]]
+type = "modrinth"
+id = "FNTcFUPb"
+version = "CxdMfvTR"
+
+[[mods]]
+type = "ghrel"
+repo = "Sweet-Berry-Collective/Wandering-Wizardry"
+tag = "0.1.7-blanketcon"
+asset = "wwizardry-${tag}+1.20.1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "MerchantPug/water-walking-fix"
+tag = "1.0.0+bc23.1"
+asset = "WaterWalkingFix-1.0.0+bc23.1.jar"
+
+[[mods]]
+type = "ghrel"
+repo = "Tom-The-Geek/WDMNF"
+tag = "v1.1.0+snapshots"
+asset = "wdmnf-1.1.0+snapshots.jar"
+
+[[mods]]
+type = "modrinth"
+id = "FT20RvJM"
+version = "SGtgZo30"
+
+[[mods]]
+type = "ghrel"
+repo = "EngineHub/WorldEditCUI"
+tag = "1.20+01"
+asset = "WorldEditCUI-1.20+01.jar"
+
+[[mods]]
+type = "modrinth"
+id = "lyYGrdho"
+version = "G0e73P8c"
+
+[[mods]]
+type = "modrinth"
+id = "M7MroYMU"
+version = "aPDBDaBH"
+
+[[mods]]
+type = "modrinth"
+id = "uvdL3H4g"
+version = "We73Lulj"
+
+[[mods]]
+type = "url"
+url = "https://jaskarth.com/pub/mods/wood_you_dye-1.1.0+1.20.1-quilt+jashacks1.jar"
+filename = "wood_you_dye-1.1.0+1.20.1-quilt+jashacks1.jar"
+
+[[mods]]
+type = "modrinth"
+id = "1eAoo2KR"
+version = "CgwTUAR2"
+
+[[mods]]
+type = "modrinth"
+id = "TTPMoAbe"
+version = "ICxw7ruW"
+
+[[mods]]
+type = "modrinth"
+id = "py6EMmAJ"
+version = "O2CYwLDI"
+
+[[mods]]
+type = "url"
+url = "https://unascribed.b-cdn.net/yttr-7.735+1.20.jar"
+filename = "yttr-7.735+1.20.jar"
+
+[options]
+upload_to_mclogs = false

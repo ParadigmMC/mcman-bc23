@@ -1,0 +1,12 @@
+{
+  "enchantment_influencing": {
+    "enabled": true,
+    "allow_treasure": true,
+    "allow_curses": false
+  },
+  "search_area": {
+    "horizontal_blocks_from_table": 5,
+    "blocks_above_table": 6,
+    "blocks_below_table":-1 
+  }
+}

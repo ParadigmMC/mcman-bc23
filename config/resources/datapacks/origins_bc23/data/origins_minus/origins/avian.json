@@ -1,0 +1,14 @@
+{
+    "loading_priority": 100,
+	"name": "Avian",
+	"description": "Freedom in the sky.",
+	"powers": [
+		"origins_minus:flap",
+		"origins_minus:glide",
+		"origins_minus:like_air"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"impact": 1
+}

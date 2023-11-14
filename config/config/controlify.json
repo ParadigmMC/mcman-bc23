@@ -1,0 +1,6 @@
+{
+    "reach_around_policy": true,
+    "global": {
+	"reach_around": "EVERYWHERE"
+    }
+}

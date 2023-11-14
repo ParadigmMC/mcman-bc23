@@ -1,0 +1,18 @@
+{
+  "loading_priority": 100,
+  "powers": [
+    "toomanyorigins:hot_hops",
+    "toomanyorigins:superfall",
+    "toomanyorigins:frail",
+    "origins:vegetarian",
+    "toomanyorigins:drenchable_fur",
+    "toomanyorigins:waterskipper",
+    "toomanyorigins:small_appetite",
+    "toomanyorigins:extra_step_height",
+    "toomanyorigins:prevent_movement_checks",
+    "toomanyorigins:cancel_out_sprint_disable_on_hit"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "order": 557,
+  "impact": 1
+}

@@ -1,0 +1,15 @@
+{
+    "loading_priority": 100,
+	"powers": [
+		"toomanyorigins:hover",
+		"toomanyorigins:pollination",
+		"toomanyorigins:calming_aura",
+		"toomanyorigins:stinging_pains",
+		"toomanyorigins:unity",
+		"toomanyorigins:beekeeper",
+		"origins:arthropod"
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 559,
+	"impact": 2
+}

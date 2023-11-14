@@ -1,0 +1,13 @@
+{
+	"name": "Stranger",
+	"powers": [
+	],
+	"icon": {
+		"item": "minecraft:glass"
+	},
+	"description": "The standard minecraft experience.\n\nHead out to Origins: Mallfest to play with Origins!",
+	"order": 1,
+	"impact": 0,
+	"loading_priority": 200,
+	"unchoosable": false
+}

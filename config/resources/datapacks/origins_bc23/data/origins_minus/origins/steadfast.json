@@ -1,0 +1,13 @@
+{
+    "loading_priority": 100,
+	"name": "Steadfast",
+	"description": "§oShow me an unstoppable force, then.§r",
+	"powers": [
+		"origins_minus:brace",
+		"origins_minus:rescue"
+	],
+	"icon": {
+		"item": "minecraft:shield"
+	},
+	"impact": 2
+}
