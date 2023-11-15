@@ -8,16 +8,6 @@ jobs:
     steps:
       - name: Checkout bc23
         uses: actions/checkout@v3
-        id: checkoutbc23
-        with:
-          repository: 'ParadigmMC/mcman-bc23'
-          path: bc23
-      - name: Checkout mcman 0.4
-        uses: actions/checkout@v3
-        with:
-          repository: 'ParadigmMC/mcman'
-          ref: 'source-rewrite'
-          path: 'mcman'
       - run: rustup toolchain install stable
       - uses: Swatinem/rust-cache@v2
       - name: Setup java
@@ -27,8 +17,7 @@ jobs:
           java-version: '17'
       - name: Install mcman
         run: |
-          cargo install --path ${{ github.workspace }}/mcman
+          cargo install --git https://github.com/ParadigmMC/mcman.git --branch source-rewrite
       - name: Test the server
         run: |
           mcman run --test
-        working-directory: ${{ steps.checkoutbc23.outputs }}/bc23
