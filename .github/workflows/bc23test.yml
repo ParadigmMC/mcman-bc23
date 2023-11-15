@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: Checkout bc23
         uses: actions/checkout@v3
+        id: checkoutbc23
         with:
           repository: 'ParadigmMC/mcman-bc23'
           path: bc23
@@ -30,4 +31,4 @@ jobs:
       - name: Test the server
         run: |
           mcman run --test
-        working-directory: ${{ github.workspace }}/bc23
+        working-directory: ${{ steps.checkoutbc23.outputs }}/bc23
